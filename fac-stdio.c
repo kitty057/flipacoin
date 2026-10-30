@@ -4,9 +4,9 @@
 int main() {
     int flip=randombytes_uniform((uint32_t)2);
     if(flip!=0) {
-        printf("tails");
+        printf("tails\n");
         }
         else {
-            printf("heads");
+            printf("heads\n");
             }
         }
